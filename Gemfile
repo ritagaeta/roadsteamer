@@ -11,7 +11,7 @@ gem "decidim", "0.27.1"
 # gem "decidim-initiatives", "0.27.1"
 # gem "decidim-templates", "0.27.1"
 
-gem "bootsnap", "~> 1.3"
+gem "bootsnap", "<= 1.1.0"
 
 gem "puma", ">= 5.0.0"
 

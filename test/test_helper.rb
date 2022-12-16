@@ -11,3 +11,10 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
 end
+
+
+unless Webpacker.compiler.fresh?
+  puts "== Webpack compiling =="
+  Webpacker.compiler.compile
+  puts "== Webpack compiled =="
+end
