@@ -22,5 +22,5 @@ services:
       - pg-data:/var/lib/postgresql/data
 volumes:
   node_modules: {}
-  bundle: {}
+  bundle: {}g
   pg-data: {}
